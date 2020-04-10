@@ -9,15 +9,26 @@ body {
 }
 .container{
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   margin: 0 auto;
   padding: 10px;
 }
 .container-h1{
   display: flex;
   width: 100%;
+  max-width: 400px;
   flex-direction: column;
   margin: 10px;
+}
+.list-projects{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  background: #46035c;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  justify-content: flex-start;
 }
 
 div {
@@ -33,17 +44,6 @@ h1 {
 }
 p {
   color: #fff;
-}
-
-div ul {
-  display: block;
-  width: 100%;
-  max-width: 400px;
-  background: #46035c;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 20px;
-  margin-right: 30px;
 }
 
 div ul h1 {
@@ -79,8 +79,7 @@ div form {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 20px;
-  margin-left: 450px;
+  margin: 30px;
 }
 
 div form h1{
