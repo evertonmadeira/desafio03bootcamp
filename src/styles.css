@@ -7,23 +7,98 @@
 body {
   font-size: 14px;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+}
+.container-h1{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 10px;
+}
 
 div {
+  display: flex;
+  background-color:#1b0c24;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
-  margin: 20px;
+}
+
+h1 {
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+
+div ul {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  background: #46035c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+div ul h1 {
+  margin: 5px;
+  color: #ffff;
 }
 
 div li {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 5px;
+  height: 50px;
+  background: #7159c1;
+  margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  color: #ffff;
+  padding: 5px;
 }
 
 div li + li {
   margin-top: 15px;
+  color: #ffff
+}
+
+div form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 450px;
+}
+
+div form h1{
+  color: #7159c1;
+}
+
+form input{
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px auto;  
 }
 
 button {
   background: #7159c1;
+  border-radius: 5px;
   color: #fff;
   border: 0;
   padding: 10px 15px;
@@ -34,6 +109,7 @@ button {
 }
 
 div li button {
+  border-radius: 5px;
   margin: 0 15px;
-  background: #ca4949;
+  background: #67e68b;
 }
