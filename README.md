@@ -5,6 +5,11 @@
  
 ![0](https://user-images.githubusercontent.com/42476488/80655751-d47c7180-8a55-11ea-810a-ce6db85009a6.jpg)
 
+### Tecnologias Utilizadas
+
+1. Node.js
+2. Express.js
+3. ReactJS
  
 ### Instalação
 ```
